@@ -1,0 +1,41 @@
+@use "./mixin.scss";
+$box_width: 40vw;
+$padding: 2vw;
+$shadow: 2px 2px 6px grey;
+
+
+body{
+    
+}
+article{
+    margin: 10px;
+    width: $box_width;
+    padding: $padding;
+    box-shadow: $shadow;
+    img{
+        height: 50%;
+        min-width: 100%;
+    }
+    h2{
+        margin: 1rem;
+        text-align: center;
+        font-size: bolder;
+    }
+    button{
+        border-style: none;
+        padding:0.5rem 1rem 0.5rem 1rem;
+        background-color: aquamarine;
+        border-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            background-color: red;
+            box-sizing: 2px 2px 6px grey;
+        }
+    }
+}
+article:nth-child(1){
+    @include mixin.style(22vw,black,white);
+}
+article:nth-child(2){
+    @include mixin.style(40vw,pink,black);
+}

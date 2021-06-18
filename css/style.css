@@ -1,0 +1,42 @@
+article {
+  margin: 10px;
+  width: 40vw;
+  padding: 2vw;
+  box-shadow: 2px 2px 6px grey;
+}
+article img {
+  height: 50%;
+  min-width: 100%;
+}
+article h2 {
+  margin: 1rem;
+  text-align: center;
+  font-size: bolder;
+}
+article button {
+  border-style: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+article button:hover {
+  cursor: pointer;
+  background-color: red;
+  box-sizing: 2px 2px 6px grey;
+}
+
+article:nth-child(1) {
+  height: 400px;
+  width: 22vw;
+  color: white;
+  background-color: black;
+}
+
+article:nth-child(2) {
+  height: 400px;
+  width: 40vw;
+  color: black;
+  background-color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */

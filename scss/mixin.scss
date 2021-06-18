@@ -1,0 +1,7 @@
+
+@mixin style ($box_w, $btn_color, $btn_text_color){
+    height: 400px;
+    width: $box_w;
+    color: $btn_text_color;
+    background-color: $btn_color;
+}
